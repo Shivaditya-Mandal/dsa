@@ -1,4 +1,4 @@
-package array_1;
+package array;
 public class spiralmatrix {
     public static void  printSpiral(int matrix[]){
         int startRow = 0;

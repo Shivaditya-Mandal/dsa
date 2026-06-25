@@ -1,4 +1,4 @@
-package array_1;
+package array;
 
 
 public class diagonalsearch {

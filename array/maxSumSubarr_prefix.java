@@ -1,4 +1,4 @@
-package array_1;
+package array;
 import java.util.*;
 
 public class maxSumSubarr_prefix{

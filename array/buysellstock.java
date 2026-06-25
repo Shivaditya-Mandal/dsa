@@ -1,4 +1,4 @@
-package array_1;
+package array;
 public class buysellstock {
     public static int buySellStock(int prices[]){
         int buyPrice = Integer.MAX_VALUE;

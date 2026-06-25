@@ -1,4 +1,4 @@
-package array_1;
+package array;
 public class diagonalsum {
     public static int diagonalSum(int matrix[][]){
         int sum = 0 ;
