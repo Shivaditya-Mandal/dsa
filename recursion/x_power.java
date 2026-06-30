@@ -10,6 +10,6 @@ public class x_power {
     public static void main(String[] args) {
         int x = 2;
         int n = 10;
-        System.out.println(power(x, n) );
+        System.out.println(power(x, n)  );
     }
 }
