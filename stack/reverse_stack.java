@@ -1,6 +1,6 @@
 package stack;
 import java.util.*;
-public class push_bottom {
+public class reverse_stack {
     public static void pushAtBottom(Stack<Integer> s , int n){
         if(s.isEmpty()){
             s.push(n);
@@ -10,7 +10,14 @@ public class push_bottom {
         pushAtBottom(s, n);
         s.push(top);
     }
-
+    public static void reverseStack(Stack<Integer> s){
+        if(s.isEmpty()){
+            return;
+        }
+        int top = s.pop();
+        reverseStack(s);
+        pushAtBottom(s, top);
+    }
     
     public static void main(String[] args) {
         Stack<Integer> s = new Stack<>();
@@ -18,7 +25,7 @@ public class push_bottom {
         s.push(2);
         s.push(3);
         s.push(4);
-        pushAtBottom(s, 5);
+        reverseStack(s);
         while(!s.isEmpty()){
             System.out.println(s.pop());
         }
