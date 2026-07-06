@@ -9,14 +9,11 @@ public class duplicate_parantheses {
             char ch = str.charAt(i);
             if(ch == ')'){
                 int count = 0;
-                while(s.peek() != '('){
+                while(s.pop() != '('){
                     count++;
-                    s.pop();
                 }
                 if(count<1){
                     return true;
-                }else{
-                    s.pop();
                 }
             }else{
                 s.push(ch);
