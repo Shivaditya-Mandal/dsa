@@ -23,5 +23,5 @@ public class q_arr {
         arr[rear] = data;
     }
 
-    public 
+    
 }
