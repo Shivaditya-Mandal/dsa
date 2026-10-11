@@ -111,7 +111,7 @@ public class LinkedList{
         }
         return -1;
     }
-
+    
     public void reverse(){
         Node prev = null;
         Node curr = head;
