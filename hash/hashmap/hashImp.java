@@ -199,6 +199,9 @@ public class hashImp {
         for (String key : keys) {
             System.out.println(key);
         }
+
+        System.out.println(hm.get("india"));
+        
     }
 
 } 
