@@ -12,3 +12,4 @@ public class hashTree {
         System.out.println(tm);
     }
 }
+// uses RED BLACK TREEs which is self balancing is a type of bst , it sorts based on keys
